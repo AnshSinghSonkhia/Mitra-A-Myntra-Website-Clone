@@ -139,9 +139,9 @@ nav ul li {
 }
 
 footer {
-  max-width: 1080px;
+  /*max-width: 1080px;*/
   margin: auto;
-  min-width: 980px;
+  /*min-width: 980px;*/
 }
 
 /*
