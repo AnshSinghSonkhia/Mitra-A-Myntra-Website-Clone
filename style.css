@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 66px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left img {
+  width: 32px;
+  height: 23px;
+}
+
+.rightBox {
+  display: flex;
+  margin: 12px;
+}
+
+.rightBox2 {
+  display: flex;
+  margin: 12px;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.containerHeader {
+  padding: 0 10vw;
+}
+
+nav {
+  font-size: 12px;
+  padding-top: 14px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1 {
+  background-color: #faf8f8;
+}
+
+.search {
+  width: 34vw;
+  padding: 7px 17px;
+  border: 0.5px solid grey;
+  background: #f7f8fd;
+  border-radius: 5px;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  height: 0%;
+  padding: 0px 0px;
+  flex: 25%;
+  vertical-align: bottom;
+  margin: -1px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  height: 0%;
+  content: "";
+  clear: both;
+  display: table;
+  vertical-align: bottom;
+}
+
+.row {
+  display: flex;
+  vertical-align: bottom;
+  margin: -4px;
+}
+
+.row2::after {
+  height: 0%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2 {
+  display: flex;
+  vertical-align: top;
+  margin: -4px;
+}
+
+.row3::after {
+  height: 0%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row3 {
+  display: flex;
+  vertical-align: top;
+  margin: -4px;
+}
+
+.itemImg {
+  width: 7.071125vw;
+  margin: 0px 7px;
+}
+
+.itemImg2 {
+  width: 5vw;
+  margin: 0px 2px;
+}
+
+.itemImg3 {
+  width: 7.89vw;
+  margin: 0px 0px;
+}
+
+.footDev {
+  position: relative;
+  z-index: 5;
+  padding: 30px 0px 40px 0px;
+  text-align: left;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  background: #edeff2;
+}
+
+footer {
+  max-width: 1080px;
+  margin: auto;
+  min-width: 980px;
+}
+
+/*
+.tall {
+  min-height: 20vh;
+}
+*/
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+}
+.itemIcon {
+  width: 30px;
+  height: 30px;
+}
+.caption {
+  display: block;
+}
+
+
+/* Sidebar */
+
+.FreeShippingBanner-sidebar {
+  position: fixed;
+  bottom: 200px;
+  width: 50px;
+  height: 300px;
+  background-color: #535766;
+  z-index: 6;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.FreeShippingBanner-sidebar-collapsed {
+  right: 0;
+}
+
+.FreeShippingBanner-arrow {
+  width: 0;
+  height: 0;
+  margin: 24px 16px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.FreeShippingBanner-arrow-collapsed {
+  border-right: 14px solid #fff;
+}
+
+.FreeShippingBanner-sidebar-content {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  width: 36px;
+  padding: 4px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  color: #fcfcfc;
+  display: inline-block;
+}
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .search {
+    width: 72vw;
+  }
+}
+
+@media (max-width: 1550px) {
+  header {
+    height: 122px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+  .containerHeader {
+    padding: 0 2vw;
+  }
+  .right {
+    flex-direction: column;
+  }
+  .rightBox {
+    display: flex;
+    margin: 12px;
+  }
+}
