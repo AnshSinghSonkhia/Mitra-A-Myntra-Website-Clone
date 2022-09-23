@@ -16,4 +16,9 @@ Designed A Responsive Website Clone Version of Famous Indian E-Commerce Store [M
 
 # Screenshots
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-original.svg" title="Kotlin" alt="Kotlin" width="60" height="60"/>&nbsp;
+<img src="https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/blob/main/images/Screenshot1.png" title="Header" alt="Header" width="1280" height=""/>&nbsp;
+<img src="https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/blob/main/images/Screenshot2.png" title="Body" alt="Body" width="1280" height=""/>&nbsp;
+<img src="https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/blob/main/images/Screenshot3.png" title="Footer" alt="Footer" width="1280" height=""/>&nbsp;
+
+>Checkout the responsiveness
+<img src="https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/blob/main/images/Screenshot4-Responsive.png" title="Responsive Website" alt="Responsive Website" width="1280" height=""/>&nbsp;
