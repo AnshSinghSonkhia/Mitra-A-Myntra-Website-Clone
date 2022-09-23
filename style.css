@@ -224,16 +224,28 @@ footer {
   .column {
     width: 100%;
   }
+  .footDev {
+    height: 122px;
+  }
 }
 
 @media (max-width: 450px) {
   .search {
     width: 72vw;
   }
+  .footDev {
+    height: 122px;
+  }
 }
 
 @media (max-width: 1550px) {
   header {
+    height: 122px;
+  }
+  .footDev {
+    height: 122px;
+  }
+  footer {
     height: 122px;
   }
   nav {
