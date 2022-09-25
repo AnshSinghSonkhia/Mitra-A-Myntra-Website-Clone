@@ -1,4 +1,4 @@
-# Mitra - A Myntra Website Clone
+# Mitra - A Myntra Website Clone  &nbsp; ![](https://img.shields.io/badge/-HTML5-darkred?style=flat&logo=HTML5&logoColor=white)&nbsp; ![](https://img.shields.io/badge/-CSS3-blue?style=flat&logo=CSS3&logoColor=white)&nbsp; ![](https://img.shields.io/badge/-JavaScript-gold?style=flat&logo=JavaScript&logoColor=black)&nbsp;
 Designed A Responsive Website Clone Version of Famous Indian E-Commerce Store [Myntra](https://www.myntra.com/).
 
 ([Deployed Project LINK](https://anshsinghsonkhia.github.io/Mitra-A-Myntra-Website-Clone/))
