@@ -22,3 +22,21 @@ Designed A Responsive Website Clone Version of Famous Indian E-Commerce Store [M
 
 >Checkout the responsiveness
 <img src="https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/blob/main/images/Screenshot4-Responsive.png" title="Responsive Website" alt="Responsive Website" width="1280" height=""/>&nbsp;
+
+
+
+## Thanks to all contributors ❤
+
+ <a href = "https://github.com/AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=AnshSinghSonkhia/Mitra-A-Myntra-Website-Clone"/>
+ </a>
+
+## License
+
+Have a look at the [LICENSE file](./LICENSE) for details
+
+<div align="center">
+
+<h3> Show Some <img src="https://github.com/AnshSinghSonkhia/AnshSinghSonkhia/blob/main/icons/love.png" title="Love" alt="Love" width="20" height="20"/> by Starring Some of My Repos! </h3>
+
+</div>
